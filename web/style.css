@@ -1,0 +1,14 @@
+#head {
+    font-family: 'Athiti', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+#topbox {
+    background-image: url('./pic/bg.jpg');
+    color: rgba(4, 61, 54, 0.835);
+}
+
+body {
+    font-family: 'Sriracha', cursive;
+}
