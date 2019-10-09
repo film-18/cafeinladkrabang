@@ -1,14 +1,19 @@
 #head {
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
     font-size: 50px;
-    text-align: center;
+    text-align: right;
 }
 
 #topbox {
-    background-image: url('./pic/bg.jpg');
-    color: rgba(4, 61, 54, 0.835);
+    background-image: url('./pic/bg1.jpg');
+    color: rgba(0, 0, 0, 0.904);
+    background-position: 78% 22%;
+    filter: drop-shadow(5px 5px 3px rgb(247, 231, 240));
+    filter: opacity(77%);
+    letter-spacing: 13px;
+
 }
 
 body {
-    font-family: 'Sriracha', cursive;
+    font-family: 'Sriracha  ', cursive;
 }
