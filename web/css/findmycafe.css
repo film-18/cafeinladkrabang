@@ -1,19 +1,21 @@
 #head {
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 4em;
+    font-size: 6em;
     font-weight: bold;
     font-variant: small-caps;
     text-align: center;
 }
 
 #topbox {
-    background-image: url('./pic/bg1.jpg');
+    background-image: url('../pic/bg3.jpg');
     background-attachment: fixed;
+    width: 100vw;
+    height: 40vh;
     color: rgba(0, 0, 0, 0.877);
     background-position: 78% 22%;
     filter: drop-shadow(8px 8px 20px rgb(246, 201, 226));
     filter: opacity(60%);
-    letter-spacing: 15px;
+    letter-spacing: 10px;
 
 }
 
