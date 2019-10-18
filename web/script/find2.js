@@ -1,34 +1,30 @@
-//Thanks for all the likes! Be sure to check out the new pen with geolocation based results!
-//https://codepen.io/azureknight/pen/VYEBGZ
-var $fastfood = ['In N Out', 'Mitsuwa', 'The Habit', 'Chipotle', 'Lil\' Pickle', 'Buffalo Wild Wings', 'Dominos', 'Haus of Pizza', 'Baja Fish', 'Chic Fil A', 'Flame Broiler', 'Jerry\'s Dogs', 'Jersey Mike\'s', 'Panera', 'Rooster Cafe', 'Corner Bakery', 'Laventinas', 'Bagelmania', 'Tommy\'s Pastrami', 'Costco'];
+var eating = null;
+var readWork = null;
+var takePhoto = null;
+var naturn = null;
+var steert = null;
+var cute = null;
+var thaiStyle = null;
+var americaStyle = null;
+var japanStyle = null;
 
-        var $fastRandom = Math.floor($fastfood.length * Math.random());
+function search() {
+    let choice = document.getElementById('first');
+    choice.innerHTML = 'checked!'
+    var box = document.getElementsByClassName('change')[0];
+    box.style.backgroundColor = '#f39c12';
 
-        var $randomFast = $fastfood[$fastRandom];
+}
 
-        var $restaurant = ['In N Out', 'Mitsuwa', 'The Habit', 'Chipotle', 'Souplantation', 'Baja Fish', 'Panera', 'Shinsengumi', 'Ajisen', 'Tokyo Table', 'Coco Ichibanya', 'IHOP', 'KBBQ', 'Pizza D\'Oro', 'Lucille\'s','Wahoo\'s', 'TGIF', 'Claim Jumper', 'Yardhouse', 'Mimis Cafe', 'Stonefire Grill', 'Anqi', 'California Pizza Kitchen', 'Acapulco', 'Haute Cakes'];
+function search2() {
+    let choice2 = document.getElementById('second')
+    var box2 = document.getElementsByClassName('change')[1];
+    box2.style.backgroundColor = '#f39c12'; 
+}
 
-        var $restRandom = Math.floor($restaurant.length * Math.random());
+function search3() {
+    let choice3 = document.getElementById('third')
+    var box3 = document.getElementsByClassName('change')[2];
+    box3.style.backgroundColor = '#f39c12';
 
-        var $randomRest = $restaurant[$restRandom];
-
-        var $dessert = ['Donuts', 'Frostbites', 'That Boba Place', 'Confetti', 'Yorgurtland', 'Alta', "Choco XO", 'Keane'];
-
-        var $dessertRandom = Math.floor($dessert.length * Math.random());
-
-        var $randomDest = $dessert[$dessertRandom];
-
-        function reRoll(){
-
-            $('#fastfood').text($fastfood[Math.floor($fastfood.length * Math.random())]);
-
-            $('#restaurant').text($restaurant[Math.floor($restaurant.length * Math.random())]);
-
-            $('#dessert').text($dessert[Math.floor($dessert.length * Math.random())]);
-        }
-
-        $(document).ready(function(){
-            $('#fastfood').text($randomFast);
-            $('#restaurant').text($randomRest);
-            $('#dessert').text($randomDest);
-        });
+}
