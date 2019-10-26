@@ -1,5 +1,3 @@
-@import "bourbon";
-
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +26,7 @@ body {
   font-size: 3.5em;
 }
 
-.response {
+.one {
   margin-top: 70px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -39,7 +37,7 @@ body {
   cursor: pointer;
 }
 
-.response1 {
+.three {
   margin-top: 70px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -50,18 +48,7 @@ body {
   cursor: pointer;
 }
 
-.response2 {
-  margin-top: 70px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 500px;
-  background: #27ae60;
-  text-align: center;
-  cursor: pointer;
-}
-
-.quality {
+.two {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -71,7 +58,7 @@ body {
   text-align: center;
 }
 
-.dessert {
+.blue {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -81,54 +68,9 @@ body {
   text-align: center;
 }
 
-.dessert2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 500px;
-  background: #27ae60;
-  text-align: center;
-
-}
-
-
-
-/* .re-roll {
-  margin-top: 20px;
-  margin-bottom: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 200px;
-  background: #8e44ad;
-  text-align: center;
-  cursor: pointer; */
-
-  webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-  -webkit-transition: all .1s linear;
-  -moz-transition: all .1s linear;
-  -o-transition: all .1s linear;
-  transition: all .1s linear;
-}
-
-.re-roll:hover {
-  background: #9b59b6;
-}
-
-.re-roll:active {
-  background: #703689;
-}
-
-.response h2 {
-
-}
 
 .padding {
   padding: 20px;
+
 }
+
