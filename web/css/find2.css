@@ -74,3 +74,10 @@ body {
 
 }
 
+#last {
+  background-color: #FEC748;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
