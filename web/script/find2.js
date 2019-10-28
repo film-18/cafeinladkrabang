@@ -8,64 +8,48 @@ var thaiStyle = null;
 var americaStyle = null;
 var japanStyle = null;
 
-function search() {
-    let choice = document.getElementById('first');
-    // choice.innerHTML = 'checked!'
-    var box = document.getElementsByClassName('change')[0];
-    box.style.backgroundColor = '#f39c12'; 
+
+var selectBox = null
+function search(box) {
+    if (box.style.backgroundColor == 'rgb(39, 174, 96)' || !box.style.backgroundColor) {
+        box.style.backgroundColor = '#CADBAE' 
+        if (!selectBox) {
+            selectBox = box
+        } else if (selectBox != box) {
+            selectBox.style.backgroundColor = "#27ae60" 
+            selectBox = box
+        }
+    } else if (box.style.backgroundColor == '#CADBAE' || !box.style.backgroundColor) {
+        box.style.backgroundColor = '#27ae60' //เขียว
+    }
 }
 
-function search2() {
-    let choiceTwo = document.getElementById('second');
-    var box2 = document.getElementsByClassName('change')[1];
-    box.style.backgroundColor = '#f39c12';
-    // if (box2.style.backgroundColor = '#27ae60') {
-    //     box2.style.backgroundColor = 'yellow';
-    // }
-    // else if (box2.style.backgroundColor = 'yellow') {
-    //     box2.style.backgroundColor = '#27ae60';
-    // }
+var selectBox2 = null
+function search2(box2) {
+    if (box2.style.backgroundColor == 'rgb(243, 156, 185)' || !box2.style.backgroundColor) {
+        box2.style.backgroundColor = '#B0CCCF'
+        if (!selectBox2) {
+            selectBox2 = box2 
+        } else if (selectBox2 != box2) {
+            selectBox2.style.backgroundColor = '#2980b9' // นง
+            selectBox2 = box2
+        }
+    } else if (box2.style.backgroundColor == '#B0CCF' || !box2.style.backgroundColor) {
+        box2.style.backgroundColor = '#2980b9'
+    }
 }
 
-function search3() {
-    let choice3 = document.getElementById('third');
-    var box3 = document.getElementsByClassName('change')[2];
-    box3.style.backgroundColor = '#f39c12';
-
-}
-
-function search4() {
-    let choice4 = document.getElementById('four');
-    var box4 = document.getElementsByClassName('change')[3];
-    box4.style.backgroundColor = '#f39c12';
-}
-
-function search5() {
-    let choice5 = document.getElementById('five');
-    var box5 = document.getElementsByClassName('change')[4];
-    box5.style.backgroundColor = '#f39c12';
-}
-
-function search6() {
-    let choice6 = document.getElementById('six');
-    var box6 = document.getElementsByClassName('change')[5];
-    box6.style.backgroundColor = '#f39c12';
-}
-
-function search7() {
-    let choice7 = document.getElementById('seven');
-    var box7 = document.getElementsByClassName('change')[6];
-    box7.style.backgroundColor = '#f39c12';
-}
-
-function search8() {
-    let choice8 = document.getElementById('eight');
-    var box8 = document.getElementsByClassName('change')[7];
-    box8.style.backgroundColor = '#f39c12';
-}
-
-function search9() {
-    let choice9 = document.getElementById('nine');
-    var box9 = document.getElementsByClassName('change')[8];
-    box9.style.backgroundColor = '#f39c12';
+var selectBox3 = null
+function search3(box3) {
+    if (box3.style.backgroundColor == '#f39c12' || !box3.style.backgroundColor) {
+        box3.style.backgroundColor = '#D0B987'
+        if (!selectBox3) {
+            selectBox3 = box3 
+        } else if (selectBox3 != box3) {
+            selectBox3.style.backgroundColor = '#f39c12' //เหลือง
+            selectBox3 = box3
+        }
+    } else if (box3.style.backgroundColor == '#D0B987' || !box3.style.backgroundColor) {
+        box3.style.backgroundColor = '#f39c12'
+    }
 }
