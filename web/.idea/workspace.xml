@@ -13,8 +13,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="303" column="39" selection-start-line="302" selection-start-column="31" selection-end-line="303" selection-end-column="39" />
+            <state relative-caret-position="330">
+              <caret line="148" column="75" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/flaticon.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -23,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="1148" column="34" selection-start-line="1148" selection-start-column="31" selection-end-line="1148" selection-end-column="34" />
+              <caret line="1766" column="46" selection-start-line="1766" selection-start-column="46" selection-end-line="1766" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -38,6 +47,11 @@
       <find>pop</find>
       <find>make</find>
       <find>Re</find>
+      <find>date</find>
+      <find>service</find>
+      <find>service_area</find>
+      <find>sc</find>
+      <find>banner_ser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,13 +151,6 @@
     <entry file="file://$PROJECT_DIR$/scss/_gallery.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/flaticon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/gijgo.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -167,14 +174,21 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="1148" column="34" selection-start-line="1148" selection-start-column="31" selection-end-line="1148" selection-end-column="34" />
+          <caret line="1766" column="46" selection-start-line="1766" selection-start-column="46" selection-end-line="1766" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flaticon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="303" column="39" selection-start-line="302" selection-start-column="31" selection-end-line="303" selection-end-column="39" />
+        <state relative-caret-position="330">
+          <caret line="148" column="75" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
         </state>
       </provider>
     </entry>

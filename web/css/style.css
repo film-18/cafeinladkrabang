@@ -1764,7 +1764,7 @@ h3 {
 .service_area::after {
   position: absolute;
   content: "";
-  background-image: url(../img/banner/banner_service.png);
+  background-image: url(../img/banner/cafehero.jpg);
   height: 650px;
   left: 0;
   right: 0;
