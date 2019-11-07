@@ -13,13 +13,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="330">
               <caret line="148" column="75" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
+=======
+            <state relative-caret-position="177">
+              <caret line="303" column="39" selection-start-line="302" selection-start-column="31" selection-end-line="303" selection-end-column="39" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/css/flaticon.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
@@ -33,6 +39,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="1766" column="46" selection-start-line="1766" selection-start-column="46" selection-end-line="1766" selection-end-column="46" />
+=======
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="1148" column="34" selection-start-line="1148" selection-start-column="31" selection-end-line="1148" selection-end-column="34" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -47,11 +59,14 @@
       <find>pop</find>
       <find>make</find>
       <find>Re</find>
+<<<<<<< HEAD
       <find>date</find>
       <find>service</find>
       <find>service_area</find>
       <find>sc</find>
       <find>banner_ser</find>
+=======
+>>>>>>> master
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,6 +189,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
+<<<<<<< HEAD
           <caret line="1766" column="46" selection-start-line="1766" selection-start-column="46" selection-end-line="1766" selection-end-column="46" />
         </state>
       </provider>
@@ -189,6 +205,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="148" column="75" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
+=======
+          <caret line="1148" column="34" selection-start-line="1148" selection-start-column="31" selection-end-line="1148" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="303" column="39" selection-start-line="302" selection-start-column="31" selection-end-line="303" selection-end-column="39" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
