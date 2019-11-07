@@ -63,34 +63,6 @@ button.addEventListener("click", e => {
 var choiceCafe = ['Timber cafe', 'Nalatkrabang', 'Beeloft cafe', 'Bissocafe', 'Olive cafe', 'Spacetime Art Galleria', 'Munwhan coffee cafe', 'Nom-mahalai', 'monwan-na-ladkrabang']
 
 function submiss() {
-    // if (eating && nature && thai) {
-
-    // }
-    // else if (eating && naturn && america) {
-
-    // }
-    // else if (eating && naturn && japan) {
-
-    // }
-    // else if (eating && street && thai) {
-
-    // }
-    // else if (eating && street && america) {
-
-    // }
-    // else if (eating && street && japan) {
-
-    // }
-    // else if (eating && cute && thai) {
-
-    // }
-    // else if (eating && cute && america) {
-
-    // }
-    // else if (eating && cute && japan) {
-
-    // }
-    // else if (readwork && naturn && japan) {}
 
 }
 
@@ -134,8 +106,5 @@ d2 = {
     }
 }
 
-e = {
-    "readwork naturn thai"
-}
 
 
