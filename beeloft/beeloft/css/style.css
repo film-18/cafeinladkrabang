@@ -7995,12 +7995,12 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Trirong', serif;
   background: #fff;
   font-size: 17px;
   line-height: 2;
   font-weight: 400;
-  color: #666666; }
+  color: #499360; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8020,7 +8020,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: #333333;
+  color: #CC8A56;
   font-weight: 400; }
 
 .top {
