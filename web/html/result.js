@@ -25,7 +25,6 @@ function load() {
         "familypastelfifty" : "Whanyenpensuk",
         "readandworkplantonehun" : "Varvana",
         "friendplantonehun" : "Varvana",
-        "photoloftfourty" : "WE DON'T HAVE FOR YOU",
         "photoloftfifty" : "WE DON'T HAVE FOR YOU",
         "photoloftsixty" : "WE DON'T HAVE FOR YOU",
         "photolofteighty" : "WE DON'T HAVE FOR YOU",
