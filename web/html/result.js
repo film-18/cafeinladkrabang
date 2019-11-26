@@ -65,53 +65,53 @@ function load() {
     let allCafe = {
         "Timber": {
             "name": "Timber",
-            "description": "",
+            "description": "take photo and review, reading or working, Loft, start 50 baht",
             "opentime": "11:00 - 22:00"
         },
 
         "Nalatkrabang" : {
             "name": "Nalatkrabang",
-            "description": "",
+            "description": "rest with family, street or vintage, start 50 baht",
             "opentime": "10:00 - 19:00"
         },
         "Beeloft cafe" : {
             "name": "Beeloft cafe",
-            "description": "",
+            "description": "take photo and review, Loft, start 50 baht",
             "opentime": "09:00 - 21:00"
         },
         "Bissocafe" : {
             "name": "Bissocafe",
-            "description": "",
+            "description": "reading or working, rest with family, Loft, ",
             "opentime": "07.00 - 18.00"
         },
         "Thinkmilk" : {
             "name": "Thinkmilk",
-            "description": "",
+            "description": "hang out with friends, Loft, start 50 baht",
             "opentime": "16:00 - 00:00"
         },
         "Spacetime Art Galleria" : {
             "name": "Spacetime Art Galleria",
-            "description": "",
+            "description": "take photo and review, reading or working, Loft, plant & tropical, ",
             "opentime": "08:00 - 21:00"
         },
         "Munwhan coffee cafe" : {
             "name": "Munwhan coffee cafe",
-            "description": "",
+            "description": "take photo and review, reading or working, hang out with friends, Loft, ",
             "opentime": "06:00 - 19:00"
         },
         "Nom-mahalai" : {
             "name": "Nom-mahalai",
-            "description": "",
+            "description": "hang out with friends, street or vintage, start 50 baht",
             "opentime": "15:00 - 00:00"
         },
         "Varvana" : {
             "name": "Varvana",
-            "description": "",
+            "description": "reading or working, hang out with friends, plant & tropical, start 100 baht",
             "opentime": "11:30-21:30"
         },
         "Whanyenpensuk" : {
             "name": "Whanyenpensuk",
-            "description": "",
+            "description": "rest with family, pastel, start 50 baht",
             "opentime": "17:00 - 22:30"
         },
         "WE DON'T HAVE FOR YOU" : {
