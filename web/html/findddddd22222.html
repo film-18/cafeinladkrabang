@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/finddddddd2222.css">
+    <link rel="shortcut icon" href="../img2/mark.png" type="image/x-icon">
     <script src="findddd2222.js"></script>
-    <title>cafeinladkrabang</title>
+    <title>Find your cafe</title>
 </head>
 <body>
     <div class="title">
@@ -15,96 +16,118 @@
             </div>
         </div>
 
-        <div class="one change" onclick="search(this); eating = true; ans += 'eating'">
+        <div class="one change" onclick="search(this); photo = true; ans.href += 'photo'">
             <div class="padding">
-                <h2 id="first">eating</h2>
+                <h2 id="first">take photo and review</h2>
             </div>
 
         </div>
-        <div class="two change" onclick="search(this); readwork = true">
+        <div class="two change" onclick="search(this); readwork = true; ans.href += 'readwork'">
             <div class="padding">
                 <h2 id="second">reading or working</h2>
             </div>
 
         </div>
-        <div class="two change" onclick="search(this); takephoto = true;">
+        <div class="two change" onclick="search(this); friend = true; ans.href += 'friend'">
             <div class="padding">
-                <h2 id="third">take photo and review</h2>
+                <h2 id="third">hang out with friends</h2>
+            </div> 
+        </div>
+
+        <div class="two change" onclick="search(this); family = true; ans.href += 'family'">
+            <div class="padding">
+                <h2 id="fourth">rest with family</h2>
             </div>
         </div>
 
-    <div class="title">
+    <div class="title" style="margin-top: 70px;">
             <div class="padding">
                 <h1>What kind of cafe?</h1>
             </div>
         </div>
 
-        <div class="three change" onclick="search2(this); nature = true;">
+        <div class="three change" onclick="search2(this); loft = true; ans.href += 'loft'">
             <div class="padding">
-                <h2 id="four">nature</h2>
+                <h2 id="four">Loft</h2>
             </div>
         </div>
 
-        <div class="blue change" onclick="search2(this); street = true;">
+        <div class="blue change" onclick="search2(this); street = true; ans.href += 'street'">
             <div class="padding">
                 <h2 id="five">street or vintage</h2>
             </div>
         </div>
 
-        <div class="blue change" onclick="search2(this); cute = true;">
+        <div class="blue change" onclick="search2(this); modern = true; ans.href += 'modern'">
             <div class="padding">
-                <h2 id="six">cute</h2>
+                <h2 id="six">modern</h2>
 
             </div>
         </div>
 
-        <div class="title">
+        <div class="blue change" onclick="search2(this); plant = true; ans.href += 'plant'">
             <div class="padding">
-                <h1>What kind of food or drink do you need?</h1>
+                <h2 id="seven">plant & tropical</h2>
             </div>
         </div>
 
-        <div class="four change" onclick="search3(this); thai = true;">
+        <div class="blue change" onclick="search2(this); pastel = true; ans.href += 'pastel'">
             <div class="padding">
-                <h2 id="seven">Thai style</h2>
+                <h2 id="eight">pastel</h2>
 
             </div>
         </div>
 
-        <div class="five change" onclick="search3(this); america = true;">
+        <div class="title" style="margin-top: 70px;">
             <div class="padding">
-                <h2 id="eight">america style</h2>
+                <h1>How many price for you?</h1>
             </div>
         </div>
 
-        <div class="five change" onclick="search3(this); japan = true;">
+        <div class="four change" onclick="search3(this); fourty = true; ans.href += 'fourty'">
             <div class="padding">
-                <h2 id="nine">japan style</h2>
+                <h2 id="seven">start 40 baht</h2>
+
             </div>
         </div>
+
+        <div class="five change" onclick="search3(this); fifthy = true; ans.href += 'fifty'">
+            <div class="padding">
+                <h2 id="eight">start 50 baht</h2>
+            </div>
+        </div>
+
+        <div class="five change" onclick="search3(this); sixty = true; ans.href += 'sixty'">
+            <div class="padding">
+                <h2 id="nine">start 60 baht</h2>
+            </div>
+        </div>
+
+        <div class="five change" onclick="search3(this); eighty = true; ans.href += 'eighty'">
+            <div class="padding">
+                <h2 id="nine">start 80 baht</h2>
+            </div>
+        </div>
+        <div class="five change" onclick="search3(this); onehun = true; ans.href += 'onehun'">
+            <div class="padding">
+                <h2 id="nine">start 100 baht</h2>
+            </div>
+        </div>
+        
 
     <center>
-            <button id="button" onclick="submiss">
-                    <a href="result.html" style="color: black; font-size: 16px;">submiss</a>
+            <button id="button">
+                    <a href="" style="color: black; font-size: 16px;" id="ans">submiss</a>
             </button>
     </center>
 
     <div id="last">
-            <a href="../index.html" style="font-size: 20px; color: whitesmoke;">Home</a>
-        </div>
+            <a href="" style="font-size: 20px; color: whitesmoke;">Home</a>
+    </div>
 
         <script>
-            // eating = false;
-            // readwork = false;
-            // takephoto = false;
-            // nature = false;
-            // street = false;
-            // cute = false;
-            // thai = false;
-            // america = false;
-            // japan = false;
-            ans = ""
-
+            ans = document.getElementById("ans")
+            ans.href = "./result.html?ans="
         </script>
 
 

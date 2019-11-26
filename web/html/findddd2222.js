@@ -60,51 +60,7 @@ button.addEventListener("click", e => {
   document.querySelector(".element").classList.toggle("flip-scale-down-diag-2")
 })
 
-var choiceCafe = ['Timber cafe', 'Nalatkrabang', 'Beeloft cafe', 'Bissocafe', 'Olive cafe', 'Spacetime Art Galleria', 'Munwhan coffee cafe', 'Nom-mahalai', 'monwan-na-ladkrabang']
 
-function submiss() {
-
-}
-
-a = {
-    "eating nature thai" : "Timber"
-}
-
-b = {
-    "Timber": {
-        "name": "timber",
-        "describe": "open"
-    }
-}
-
-b["Timber"] --> {
-    "name": "timber",
-    "describe": "open"
-}
-
-
-c = {
-    "eating street america" : "ccc"
-}
-
-c2 = {
-    "ccc" : {
-        "name" : "ccc",
-        "describe" : "open"
-    }
-}
-
-
-d = {
-    "eating cute japan": "ddd"
-}
-
-d2 = {
-    "ddd" : {
-        "name" : "ddd",
-        "describe" : "open"
-    }
-}
 
 
 
