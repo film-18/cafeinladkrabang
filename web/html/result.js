@@ -1,5 +1,3 @@
-var choiceCafe = ['Timber cafe', 'Nalatkrabang', 'Beeloft cafe', 'Bissocafe', 'Thinkmilk', 'Spacetime Art Galleria', 'Munwhan coffee cafe', 'Nom-mahalai', 'monwan-na-ladkrabang']
-
 function load() {
     let ans = window.location.search
     let ans1 = ans.split("=")[1]
@@ -66,7 +64,7 @@ function load() {
         "Timber": {
             "name": "Timber",
             "description": "take photo and review, reading or working, Loft, start 50 baht",
-            "opentime": "11:00 - 22:00"
+            "opentime": "11:00 - 22:00",
         },
 
         "Nalatkrabang" : {
@@ -126,12 +124,16 @@ function load() {
     let name = cafe["name"];
     let description = cafe["description"];
     let opentime = cafe["opentime"];
+
+    console.log(name);
+    console.log(description);
+    console.log(opentime);
     
     let nameBox = document.getElementById("name");
     let descriptionBox = document.getElementById("description");
     let opentimeBox = document.getElementById("opentime");
-    nameBox.innerHTML = "Name: " + name
-    descriptionBox.innerHTML = "Description: " + description;
-    opentimeBox.innerHTML = "Open-Close: " + opentime;
+    nameBox.innerHTML = name
+    descriptionBox.innerHTML = description;
+    opentimeBox.innerHTML = opentime;
 }
 
